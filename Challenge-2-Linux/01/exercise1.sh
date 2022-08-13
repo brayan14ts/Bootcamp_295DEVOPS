@@ -11,8 +11,8 @@ echo "inicializando fichero:" $0"..."
 echo "Creando carpetas y archivos."
 mkdir foo/
 mkdir foo/dummy/
-touch > foo/dummy/file1.txt
-touch > foo/dummy/file2.txt 
+touch foo/dummy/file1.txt
+touch foo/dummy/file2.txt 
 mkdir foo/empty/
 
 #   file1.txt debe contener el siguiente texto: `Me encanta bash!!`
